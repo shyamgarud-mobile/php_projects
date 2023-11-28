@@ -1,0 +1,8 @@
+Field,Start,End,Length,Align,Pad,Trim,Format Type,Mask,Blank When Zero,Pos Sign,Neg Sign,Sign Position,Constant,COMMENTS
+Record Type,1,1,1,Right,0,Left,,,,,,,1,
+Filler,2,3,2,Right,0,Left,,,,,,,00,
+LockboxDda,4,13,10,Right,0,Left,,,,,,,,
+Origin Code,14,23,10,Right,Blank,Left,,,,,,,071000013,
+BatchProcessDate,24,29,6,Right,0,Left,C#,yyMMdd,,,,,,
+CurrentDate,30,33,4,Right,0,Left,C#,HHmm,,,,,,
+Filler,34,80,47,Right,Blank,Right,,,,,,,,
